@@ -15,11 +15,11 @@
         <link rel="stylesheet" href="/storage/css/index.css">
         <title>Home | GmingRealm</title>
 
-        <meta name="description" content="GmingRealm is a one of a kind, highly sophisticated, unblocked gaming website! This game site has many features that others do not have, such as having NO ads, tab hiding + hiding from history, panic key combo, themes, and more! Also called Gaming Realm or GamingRealm.">
+        <meta name="description" content="GmingRealm is a one of a kind, highly sophisticated, unbIocked gaming website! This game site has many features that others do not have, such as having NO ads, tab hiding + hiding from history, panic key combo, themes, and more! Also called Gaming Realm or GamingRealm.">
         <meta property="og:site_name" content="Gaming Realm">
         <meta property="og:title" content="Gaming Realm">
         <meta property="og:type" content="website">
-        <meta property="og:description" content="GmingRealm is a one of a kind, highly sophisticated, unblocked gaming website! This game site has many features that others do not have, such as having NO ads, tab hiding + hiding from history, panic key combo, themes, and more! Also called Gaming Realm or GamingRealm.">
+        <meta property="og:description" content="GmingRealm is a one of a kind, highly sophisticated, unbIocked gaming website! This game site has many features that others do not have, such as having NO ads, tab hiding + hiding from history, panic key combo, themes, and more! Also called Gaming Realm or GamingRealm.">
   </head>
   <body>
     
@@ -28,27 +28,29 @@
         <!-- <img src="/images/other/UpdateLogV1.png" style="width: 90%;"> -->
         <br><br>
         <h2 style="font-size: 28px; text-decoration: underline;">Update Log</h2>
-        <div id="updContent">
-        <li>Sorry that not many games were added in this update. Will have time to add way more later in the next big update.
-        </li>
-        <li>We did add unblocked discord though. You can toggle the widget in the settings. Also added page seperate for it.
-        </li>
-        <li>Will add tips box in next update and add more games.</li>
-        <li>Will also add a page dedicated to 50+ rizz lines I made myself for you beta males in the next update</li>
-        <div id="updConfirmFrame"><button id="updConfirm">okay</button></div>
-      </div></div>
+        <div id="updContent" data-version="31">
+        <li>Update kinda rushed but CUT THE COMPLAINING</li>
+        <li>so I added like 100 roblox links</li>
+        <li>fixed and updated plans page cause there was alot</li>
+        <li>also added sandboxels and working on a lot of game requests</li>
+        <li><a href="plans.html" style="text-decoration: underline;">view plans page by clicking me</a></li>
+      </div><div id="updConfirmFrame"><button id="updConfirm">okay</button></div></div>
+
 
       
       <div class="content-side">
           <h1 class="typewriter"><span id="cursor"></span></h1>
-          <h2>version 29.1</h2><h3></h3>
+          <h2>version 31</h2><h3></h3>
         <div style="display: flex; justify-content: center; align-items: center; position: relative;">
             <img style="height: 5vh;" alt="Games : A lot"
-                src="https://img.shields.io/github/directory-file-count/superblueeyeball/superblueeyeball.github.io%2Fgames?type=dir&style=for-the-badge&label=Games&labelColor=grey&color=black">
+                src="https://img.shields.io/github/directory-file-count/superredeyeball/superredeyeball.github.io%2Fgames?type=dir&style=for-the-badge&label=Games&labelColor=grey&color=black">
             <span style="margin: 0 20px; position: relative; top: 0px;">•</span>
             <img style="height: 5vh;" alt="Last Updated : Sometime during 2020 - 3020"
-                src="https://img.shields.io/github/last-commit/superblueeyeball/superblueeyeball.github.io?display_timestamp=author&style=for-the-badge&label=Last%20Updated&labelColor=grey&color=black">
+                src="https://img.shields.io/github/last-commit/superredeyeball/superredeyeball.github.io?display_timestamp=author&style=for-the-badge&label=Last%20Updated&labelColor=grey&color=black">
         </div><br>
+
+        
+
           <div class="button-container">
               <div class="gamesbutton" onclick="window.location='games/index.html';">
                   <img src="images/other/controller.png">
@@ -81,10 +83,10 @@
           <br>
 
           <p class="linkp"><a href="/mobile/index.html">mobile</a> • <a href="host.html">rehost</a> • <a id="openBlankLink">hide tab</a></p>
-          <p class="linkp"><!-- <a href="/dizzy.html" target="_blank">unblocked discord</a> • --><a href="updatelog.html">update log</a> • <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU1CELhxTF7WqrW2ujKs9DHI1gANNJQqzN7Ojz6i8sIe-X6A/viewform?usp=sf_link">give feedback</a></p>
+          <p class="linkp"><!-- <a href="/dizzy.html" target="_blank">unbIocked discord</a> • --><a href="updatelog.html">update log</a> • <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU1CELhxTF7WqrW2ujKs9DHI1gANNJQqzN7Ojz6i8sIe-X6A/viewform?usp=sf_link">give feedback</a> • <a href="/plans.html">plans</a></p>
           
           <br>
-          <a href="https://github.com/superblueeyeball" target="_blank" style="text-decoration: none;">˗ˏˋ❀ website created/developed by @SuperBlueEyeball ❀ ´ˎ˗<br><span style="opacity: 0.5;">PSSTT ~ You also may know me as Augustine</span></a>
+          <a href="https://github.com/superredeyeball" target="_blank" style="text-decoration: none;">˗ˏˋ❀ website created/developed by @SuperBlueEyeball ❀ ´ˎ˗<br><span style="opacity: 0.5;">PSSTT ~ You also may know me as Augustine</span></a>
         
       </div>
 
@@ -109,17 +111,21 @@
 
       <script>
         document.addEventListener('DOMContentLoaded', function () {
-            if (!localStorage.getItem('v10-update')) {
-                document.getElementById('blackout').style.display = 'block';
-                document.getElementById('updPopup').style.display = 'block';
-                localStorage.setItem('v10-update', 'true');
-            }
-            document.getElementById('updConfirm').addEventListener('click', function () {
-                document.getElementById('blackout').style.display = 'none';
-                document.getElementById('updPopup').style.display = 'none';
-            });
+          const updatePopup = document.getElementById('updPopup');
+          const updateContent = document.getElementById('updContent');
+          const currentVersion = updateContent.getAttribute('data-version');
+          if (!localStorage.getItem(currentVersion)) {
+            document.getElementById('blackout').style.display = 'block';
+            updatePopup.style.display = 'block';
+            localStorage.setItem(currentVersion, 'true');
+          }
+          document.getElementById('updConfirm').addEventListener('click', function () {
+            document.getElementById('blackout').style.display = 'none';
+            updatePopup.style.display = 'none';
+          });
         });
       </script>
+
       <script>
         const text = "GmingRealm";
         const typingDelay = 150; 
