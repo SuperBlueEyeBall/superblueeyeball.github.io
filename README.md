@@ -1,11 +1,12 @@
+# Warning
+## GmingRealm has migrated to <a href="https://superredeyeball.github.io/">superredeyeball.github.io</a> as the blue version has gotten blocked in some schools. Only the red version will be updated, sometimes with me pulling the changes over to the main repo for the blue users to see.
+
+---
+
 # GmingRealm | Reborn
 <center><a href="https://superblueeyeball.github.io/">visit live website</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU1CELhxTF7WqrW2ujKs9DHI1gANNJQqzN7Ojz6i8sIe-X6A/viewform?usp=sf_link">request feature</a> · <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU1CELhxTF7WqrW2ujKs9DHI1gANNJQqzN7Ojz6i8sIe-X6A/viewform?usp=sf_link">report issue</a></center>
     
 ### Welcome to Gmingrealm, the best gaming site on the market!
-
-
-This project has a license, so don't try copying it. You can fork it and give credit without claiming it's yours. Self-hosting and hosting providers are OK ***WITH CREDIT AND LICENSE*** of me (SuperBlueEyeball) and the template creator (SipSup3314). 
-
 ## My backstory 
 
 I used to have this gaming site hosted on replit, but it run on replit which sucks now. Replit also got blocked in my school. The site even got resource limited so I took initiative after a while and restarted the best gaming site ever!!!
